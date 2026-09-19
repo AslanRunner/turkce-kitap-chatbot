@@ -1,5 +1,10 @@
 # 📚 Kitap Kurdu
 
+[![Python](https://img.shields.io/badge/Python-3.9%2B-3776AB?logo=python&logoColor=white)](https://www.python.org/)
+[![Streamlit](https://img.shields.io/badge/Streamlit-App-FF4B4B?logo=streamlit&logoColor=white)](https://streamlit.io/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
+
 Yapay zeka destekli kişiselleştirilmiş kitap danışmanı uygulaması, kullanıcılara akıllı kitap tavsiyeleri sunmak için tasarlanmıştır.
 
 ## ✨ Özellikler
@@ -31,7 +36,7 @@ Yapay zeka destekli kişiselleştirilmiş kitap danışmanı uygulaması, kullan
 ### 2. Repoyu Klonla
 
 ```bash
-git clone https://github.com/yourusername/turkce-kitap-chatbot.git
+git clone https://github.com/AslanRunner/turkce-kitap-chatbot.git
 cd turkce-kitap-chatbot
 ```
 
@@ -78,7 +83,7 @@ Bu işlem:
 ### 7. Uygulamayı Çalıştır
 
 ```bash
-streamlit run chatbot_app.py
+streamlit run app.py
 ```
 
 Tarayıcın otomatik açılacak: `http://localhost:8501`
@@ -110,14 +115,14 @@ turkce-kitap-chatbot/
 ├── requirements.txt               # Python bağımlılıkları
 ├── .env.example                   # Environment template
 ├── .gitignore                     # Git ignore dosyası
-├── chatbot_app.py                 # Streamlit uygulaması (Ana dosya)
+├── app.py                 # Streamlit uygulaması (Ana dosya)
 ├── database.py                    # Vector DB oluşturucu
 └── chroma_db/                     # Vector database (otomatik oluşturulur)
 ```
 
 ## 🔧 Yapılandırma
 
-### `chatbot_app.py` içinde düzenlenebilir:
+### `app.py` içinde düzenlenebilir:
 
 ```python
 MODEL_NAME = "gemini-2.0-flash"    # LLM modeli
@@ -147,3 +152,8 @@ MIT License - Detaylar için `LICENSE` dosyasına bak
 ![Ekran Kaydı 2025-10-22 200602](https://github.com/user-attachments/assets/94623afe-cf94-4259-b8b2-d1550029e908)
 
 
+
+
+## 🤝 Katkıda Bulunma
+
+Hata bildirimleri, özellik önerileri ve pull request'ler memnuniyetle karşılanır. Büyük bir değişiklik planlıyorsan önce bir issue açarak yaklaşımı tartışabilirsin.
